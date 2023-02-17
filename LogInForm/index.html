@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LogIN</title>
+</head>
+<body>
+    <div class="center">
+        <h1>Log In</h1>
+        <div class="form">
+            <form name="Form" onsubmit="return validateForm()">
+                <input type='email' placeholder="Enter Email" name='email'><label>Email</label><p id="emailError"></p>
+                <input type='password'placeholder="Enter Password" name='password'><label>Password</label><p id="passwordError"></p>
+                <input type='password' placeholder="Confirm Password" name='confirmPassword'><label>Confirm</label><p id="confirmPassError"></p>
+                <div class="btn">
+                   <input type="submit" value="Log In">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
